@@ -1,0 +1,3 @@
+[submodule "deepracer-local"]
+	path = deepracer-local
+	url = https://github.com/guywilsonjr/deepracer-local

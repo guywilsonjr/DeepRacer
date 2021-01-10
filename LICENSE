@@ -7,6 +7,11 @@
 
                             Preamble
 
+distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
+curl -s -L https://nvidia.github.io/nvidia-docker/ubuntu19.04/nvidia-docker.list | \
+  sudo tee /etc/apt/sources.list.d/nvidia-docker.list
+
+
   The GNU General Public License is a free, copyleft license for
 software and other kinds of works.
 
